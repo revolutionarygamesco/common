@@ -1,12 +1,8 @@
-import { makeStringUnionGuard } from '../guards/string-union.ts'
-
 const primitiveLabels = [
   'null', 'undefined', 'a function', 'true', 'false', 'a string', 'a number',
   'a symbol', 'an empty array', 'an empty object',
 ] as const
 export type PrimitiveLabel = typeof primitiveLabels[number]
-export const isPrimitiveLabel: (candidate: unknown) => candidate is PrimitiveLabel =
-  makeStringUnionGuard(primitiveLabels)
 
 export const primitives = [
   ['null', null],

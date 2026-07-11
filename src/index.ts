@@ -19,7 +19,6 @@ export * from './randomizers/shuffle.ts'
 export * from './strings/capital.ts'
 export * from './strings/decapital.ts'
 export * from './strings/oxford.ts'
-export * from './strings/union.ts'
 
 export * from './testing/primitives.ts'
 export type * from './testing/primitives.ts'

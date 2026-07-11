@@ -1,12 +1,10 @@
 import { describe, it, expect } from 'vitest'
 import { primitives } from '../testing/primitives.ts'
-import { makeStringUnion } from '../strings/union.ts'
 import { makeStringUnionGuard } from './string-union.ts'
 
 describe('makeStringUnionGuard', () => {
-  const items = ['a', 'b', 'c']
-  const union = makeStringUnion(...items)
-  const isTest = makeStringUnionGuard(union)
+  const items = ['a', 'b', 'c'] as const
+  const isTest = makeStringUnionGuard(items)
 
   it.each(primitives)('rejects %s', (_label, value) => {
     expect(isTest(value)).toBe(false)
