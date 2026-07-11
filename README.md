@@ -1,4 +1,8 @@
 # Revolutionary Games Common Library
+![Latest Release](https://img.shields.io/github/v/release/revolutionarygamesco/common?label=Latest+release&style=for-the-badge)
+![Test Status](https://img.shields.io/github/actions/workflow/status/revolutionarygamesco/common/test.yml?label=Test+status&style=for-the-badge)
+![License](https://img.shields.io/github/license/revolutionarygamesco/common?style=for-the-badge)
+
 A library of methods that we tend to use in all (or at least most) of our projects.
 
 ## Getting Started
