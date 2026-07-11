@@ -1,3 +1,13 @@
+import { makeStringUnionGuard } from '../guards/string-union.ts'
+
+const primitiveLabels = [
+  'null', 'undefined', 'a function', 'true', 'false', 'a string', 'a number',
+  'a symbol', 'an empty array', 'an empty object',
+] as const
+export type PrimitiveLabel = typeof primitiveLabels[number]
+export const isPrimitiveLabel: (candidate: unknown) => candidate is PrimitiveLabel =
+  makeStringUnionGuard(primitiveLabels)
+
 export const primitives = [
   ['null', null],
   ['undefined', undefined],
@@ -6,12 +16,13 @@ export const primitives = [
   ['false', false],
   ['a string', 'a string'],
   ['a number', 42],
+  ['a symbol', Symbol()],
   ['an empty array', []],
   ['an empty object', {}],
-] as Array<[string, any]>
+] as Array<[PrimitiveLabel, any]>
 
 export const getPrimitivesExcept = (
-  ...exceptions: string[]
+  ...exceptions: PrimitiveLabel[]
 ): Array<[string, any]> => {
   return primitives.filter(([label, _]) => {
     return !exceptions.includes(label)

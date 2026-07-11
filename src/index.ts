@@ -22,5 +22,6 @@ export * from './strings/oxford.ts'
 export * from './strings/union.ts'
 
 export * from './testing/primitives.ts'
+export type * from './testing/primitives.ts'
 
 export * from './stock.ts'
