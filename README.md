@@ -22,39 +22,39 @@ if (isString(x)) console.log(x)
 
 ### Type guards
 
-* [isNumber](/revolutionarygamesco/common/wiki/isNumber)
-* [isNumberArray](/revolutionarygamesco/common/wiki/isNumberArray)
-* [isString](/revolutionarygamesco/common/wiki/isString)
-* [isStringArray](/revolutionarygamesco/common/wiki/isStringArray)
-* [isObject](/revolutionarygamesco/common/wiki/isObject)
-* [makeArrayGuard](/revolutionarygamesco/common/wiki/makeArrayGuard)
-* [makeStringUnionGuard](/revolutionarygamesco/common/wiki/makeStringUnionGuard)
-* [makeTupleGuard](/revolutionarygamesco/common/wiki/makeTupleGuard)
+* [isNumber](https://github.com/revolutionarygamesco/common/wiki/isNumber)
+* [isNumberArray](https://github.com/revolutionarygamesco/common/wiki/isNumberArray)
+* [isString](https://github.com/revolutionarygamesco/common/wiki/isString)
+* [isStringArray](https://github.com/revolutionarygamesco/common/wiki/isStringArray)
+* [isObject](https://github.com/revolutionarygamesco/common/wiki/isObject)
+* [makeArrayGuard](https://github.com/revolutionarygamesco/common/wiki/makeArrayGuard)
+* [makeStringUnionGuard](https://github.com/revolutionarygamesco/common/wiki/makeStringUnionGuard)
+* [makeTupleGuard](https://github.com/revolutionarygamesco/common/wiki/makeTupleGuard)
 
 ### Number methods
 
-* [clamp](/revolutionarygamesco/common/wiki/clamp)
-* [degreesToRadians](/revolutionarygamesco/common/wiki/degreesToRadians)
-* [radiansToDegrees](/revolutionarygamesco/common/wiki/radiansToDegrees)
-* [isWithinRange](/revolutionarygamesco/common/wiki/isWithinRange)
+* [clamp](https://github.com/revolutionarygamesco/common/wiki/clamp)
+* [degreesToRadians](https://github.com/revolutionarygamesco/common/wiki/degreesToRadians)
+* [radiansToDegrees](https://github.com/revolutionarygamesco/common/wiki/radiansToDegrees)
+* [isWithinRange](https://github.com/revolutionarygamesco/common/wiki/isWithinRange)
 
 ### Randomizers
 
-* [selectRandomBetween](/revolutionarygamesco/common/wiki/selectRandomBetween)
-* [selectRandomElement](/revolutionarygamesco/common/wiki/selectRandomElement)
-* [shuffleArray](/revolutionarygamesco/common/wiki/shuffleArray)
+* [selectRandomBetween](https://github.com/revolutionarygamesco/common/wiki/selectRandomBetween)
+* [selectRandomElement](https://github.com/revolutionarygamesco/common/wiki/selectRandomElement)
+* [shuffleArray](https://github.com/revolutionarygamesco/common/wiki/shuffleArray)
 
 ### String methods
 
-* [capitalize](/revolutionarygamesco/common/wiki/capitalize)
-* [decapitalize](/revolutionarygamesco/common/wiki/decapitalize)
-* [makeOxfordList](/revolutionarygamesco/common/wiki/makeOxfordList)
+* [capitalize](https://github.com/revolutionarygamesco/common/wiki/capitalize)
+* [decapitalize](https://github.com/revolutionarygamesco/common/wiki/decapitalize)
+* [makeOxfordList](https://github.com/revolutionarygamesco/common/wiki/makeOxfordList)
 
 ### Testing methods
 
-* [getObjectRecord](/revolutionarygamesco/common/wiki/getObjectRecord)
-* [getPrimitivesExcept](/revolutionarygamesco/common/wiki/getPrimitivesExcept)
+* [getObjectRecord](https://github.com/revolutionarygamesco/common/wiki/getObjectRecord)
+* [getPrimitivesExcept](https://github.com/revolutionarygamesco/common/wiki/getPrimitivesExcept)
 
 ### Other methods
 
-* [stockArray](/revolutionarygamesco/common/wiki/stockArray)
+* [stockArray](https://github.com/revolutionarygamesco/common/wiki/stockArray)
