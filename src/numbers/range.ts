@@ -1,4 +1,4 @@
-const isWithinRange = (
+export const isWithinRange = (
   n: number,
   range: number[],
   inclusive: boolean = true
@@ -10,5 +10,3 @@ const isWithinRange = (
   const isLessThanMax = inclusive ? n <= max : n < max
   return isGreaterThanMin && isLessThanMax
 }
-
-export default isWithinRange

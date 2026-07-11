@@ -1,4 +1,6 @@
-const stockArray = <T>(stock: Array<{ n: number, item: T }>): T[] => {
+export const stockArray = <T>(
+  stock: Array<{ n: number, item: T }>
+): T[] => {
   const arr: T[] = []
 
   for (const { n, item } of stock) {
@@ -9,5 +11,3 @@ const stockArray = <T>(stock: Array<{ n: number, item: T }>): T[] => {
 
   return arr
 }
-
-export default stockArray

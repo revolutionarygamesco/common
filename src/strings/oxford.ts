@@ -1,4 +1,4 @@
-const makeOxfordList = (
+export const makeOxfordList = (
   items?: string[],
   conjunction: string = 'and'
 ): string => {
@@ -10,5 +10,3 @@ const makeOxfordList = (
   const last = items[items.length - 1]
   return `${rest.join(', ')}, ${conjunction} ${last}`
 }
-
-export default makeOxfordList

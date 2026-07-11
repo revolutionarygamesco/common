@@ -1,8 +1,8 @@
 import { describe, beforeAll, it, expect } from 'vitest'
-import primitives from '../testing/primitives.ts'
-import isNumber from './number.ts'
-import isString from './string.ts'
-import makeTupleGuard from './tuple.ts'
+import { primitives } from '../testing/primitives.ts'
+import { isNumber } from './number.ts'
+import { isString } from './string.ts'
+import { makeTupleGuard } from './tuple.ts'
 
 describe('makeTupleGuard', () => {
   let isNumberStringTuple: (candidate: unknown) => candidate is [Number, String]

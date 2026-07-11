@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import changeInitialCase from './change-initial-case.ts'
+import { changeInitialCase } from './change-initial-case.ts'
 
 describe('changeInitialCase', () => {
   it('can capitalize the first letter in a string', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import primitives, { getPrimitivesExcept } from './primitives.ts'
+import { primitives, getPrimitivesExcept } from './primitives.ts'
 
 describe('getPrimitivesExcept', () => {
   it.each(primitives)('can return all primitives except %s', (label, _) => {

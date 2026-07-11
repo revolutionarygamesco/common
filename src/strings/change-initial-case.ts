@@ -6,5 +6,3 @@ export const changeInitialCase = (
   const cased = letterCase === 'upper' ? init.toUpperCase() : init.toLowerCase()
   return cased + str.slice(1)
 }
-
-export default changeInitialCase

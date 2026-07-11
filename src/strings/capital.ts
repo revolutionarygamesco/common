@@ -1,5 +1,5 @@
-import changeInitialCase from './change-initial-case.ts'
+import { changeInitialCase } from './change-initial-case.ts'
 
-const capitalize = (orig: string): string => changeInitialCase(orig)
-
-export default capitalize
+export const capitalize = (
+  orig: string
+): string => changeInitialCase(orig)

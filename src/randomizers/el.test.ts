@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import selectRandomElement from './el.ts'
+import { selectRandomElement } from './el.ts'
 
 describe('selectRandomElement', () => {
   it('selects a random element from an array', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import makeOxfordList from './oxford.ts'
+import { makeOxfordList } from './oxford.ts'
 
 describe('makeOxfordList', () => {
   it('returns a null string if not given any items', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import stockArray from './stock.ts'
+import { stockArray } from './stock.ts'
 
 describe('stockArray', () => {
   it('stocks an array', () => {

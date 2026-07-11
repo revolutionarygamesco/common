@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import decapitalize from './decapital.ts'
+import { decapitalize } from './decapital.ts'
 
 describe('decapitalize', () => {
   it('decapitalizes the first letter in a string', () => {

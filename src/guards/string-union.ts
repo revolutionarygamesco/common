@@ -1,6 +1,6 @@
-import isString from './string.ts'
+import { isString}  from './string.ts'
 
-const makeStringUnionGuard = <T extends string>(
+export const makeStringUnionGuard = <T extends string>(
   values: readonly T[]
 ): (candidate: unknown) => candidate is T => {
   return (candidate: unknown): candidate is T => {
@@ -8,5 +8,3 @@ const makeStringUnionGuard = <T extends string>(
     return isString(candidate) && ro.includes(candidate)
   }
 }
-
-export default makeStringUnionGuard

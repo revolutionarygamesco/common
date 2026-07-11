@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import capitalize from './capital.ts'
+import { capitalize } from './capital.ts'
 
 describe('capitalize', () => {
   it('capitalizes the first letter in a string', () => {

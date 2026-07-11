@@ -1,4 +1,4 @@
-const primitives = [
+export const primitives = [
   ['null', null],
   ['undefined', undefined],
   ['a function', () => {}],
@@ -17,5 +17,3 @@ export const getPrimitivesExcept = (
     return !exceptions.includes(label)
   })
 }
-
-export default primitives

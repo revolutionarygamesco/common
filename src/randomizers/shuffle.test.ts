@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import shuffleArray from './shuffle.ts'
+import { shuffleArray } from './shuffle.ts'
 
 describe('shuffleArray', () => {
   it('shuffles the array', () => {

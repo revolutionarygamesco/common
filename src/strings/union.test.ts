@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import makeStringUnion from './union.ts'
+import { makeStringUnion } from './union.ts'
 
 describe('makeStringUnion', () => {
   it('returns a readonly array of strings', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import radiansToDegrees from './rad-deg.ts'
+import { radiansToDegrees } from './rad-deg.ts'
 
 describe('radiansToDegrees', () => {
   it.each([

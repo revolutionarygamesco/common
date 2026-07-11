@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { getPrimitivesExcept } from '../testing/primitives.ts'
-import isNumber from './number.ts'
+import { isNumber } from './number.ts'
 
 describe('isNumber', () => {
   it.each([

@@ -2,7 +2,7 @@ export type Guards<T extends readonly unknown[]> = {
   [K in keyof T]: (candidate: unknown) => candidate is T[K]
 }
 
-const makeTupleGuard = <T extends readonly unknown[]>(
+export const makeTupleGuard = <T extends readonly unknown[]>(
   ...guards: Guards<T>
 ): (candidate: unknown) => candidate is T => {
   return (candidate: unknown): candidate is T => {
@@ -11,5 +11,3 @@ const makeTupleGuard = <T extends readonly unknown[]>(
     return guards.every((guard, i) => guard(candidate[i]))
   }
 }
-
-export default makeTupleGuard

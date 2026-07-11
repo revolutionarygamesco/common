@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import isWithinRange from './range.ts'
+import { isWithinRange } from './range.ts'
 
 describe('isWithinRange', () => {
   const range = [1, 10]

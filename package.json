@@ -17,6 +17,7 @@
   },
   "type": "module",
   "scripts": {
+    "build": "tsdown",
     "test": "vitest run --typecheck",
     "test:coverage": "vitest run --coverage"
   },

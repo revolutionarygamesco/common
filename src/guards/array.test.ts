@@ -1,7 +1,7 @@
 import { describe, beforeAll, it, expect } from 'vitest'
 import { getPrimitivesExcept } from '../testing/primitives.ts'
-import isNumber from './number.ts'
-import makeArrayGuard from './array.ts'
+import { isNumber } from './number.ts'
+import { makeArrayGuard } from './array.ts'
 
 describe('makeArrayGuard', () => {
   let isNumberArray: (candidate: unknown) => candidate is Number[]

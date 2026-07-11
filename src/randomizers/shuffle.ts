@@ -1,6 +1,6 @@
-import selectRandomBetween from './between.ts'
+import { selectRandomBetween } from './between.ts'
 
-const shuffleArray = <T>(arr: T[]): T[] => {
+export const shuffleArray = <T>(arr: T[]): T[] => {
   const shuffled = [...arr]
 
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -12,5 +12,3 @@ const shuffleArray = <T>(arr: T[]): T[] => {
 
   return shuffled
 }
-
-export default shuffleArray
