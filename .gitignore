@@ -1,5 +1,8 @@
 # Node modules
 node_modules
 
+# Ignore built files
+coverage
+
 # Ignore IDE configuration
 .idea
