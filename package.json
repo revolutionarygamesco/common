@@ -1,4 +1,20 @@
 {
+  "name": "@revolutionarygamesco/common",
+  "description": "A library of methods that we tend to use in all (or at least most) of our projects.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/revolutionarygamesco/common",
+  "bugs": "https://github.com/revolutionarygamesco/common/issues",
+  "license": "GPL-3.0-or-later",
+  "contributors": [
+    {
+      "name": "Jason Godesky",
+      "email": "jason@revolutionarygames.co"
+    }
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/revolutionarygamesco"
+  },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
     "publint": "^0.3.21",
