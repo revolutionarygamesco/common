@@ -15,6 +15,10 @@
     "type": "patreon",
     "url": "https://patreon.com/revolutionarygamesco"
   },
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --typecheck"
+  },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
     "@vitest/coverage-v8": "^4.1.10",
