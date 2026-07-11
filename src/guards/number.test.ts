@@ -4,7 +4,7 @@ import isNumber from './number.ts'
 
 describe('isNumber', () => {
   it.each([
-    ...getPrimitivesExcept(42),
+    ...getPrimitivesExcept('a number'),
     ['NaN', NaN]
   ] as Array<[string, any]>)('rejects %s', (_label, candidate) => {
     expect(isNumber(candidate)).toBe(false)

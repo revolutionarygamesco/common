@@ -2,9 +2,9 @@ import { describe, it, expect } from 'vitest'
 import primitives, { getPrimitivesExcept } from './primitives.ts'
 
 describe('getPrimitivesExcept', () => {
-  it.each(primitives)('can return all primitives except %s', (_label, value) => {
-    const actual = getPrimitivesExcept(value)
+  it.each(primitives)('can return all primitives except %s', (label, _) => {
+    const actual = getPrimitivesExcept(label)
     expect(actual).toHaveLength(primitives.length - 1)
-    expect(actual.filter(p => p[1] === value)).toHaveLength(0)
+    expect(actual.filter(p => p[0] === label)).toHaveLength(0)
   })
 })

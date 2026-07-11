@@ -6,15 +6,15 @@ const primitives = [
   ['false', false],
   ['a string', 'a string'],
   ['a number', 42],
-  ['an array', []],
+  ['an empty array', []],
   ['an empty object', {}],
 ] as Array<[string, any]>
 
 export const getPrimitivesExcept = (
-  ...exceptions: any[]
+  ...exceptions: string[]
 ): Array<[string, any]> => {
-  return primitives.filter(([_, value]) => {
-    return !exceptions.includes(value)
+  return primitives.filter(([label, _]) => {
+    return !exceptions.includes(label)
   })
 }
 
