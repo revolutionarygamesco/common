@@ -37,7 +37,7 @@
     "build": "tsdown",
     "test": "vitest run --typecheck",
     "test:coverage": "vitest run --coverage",
-    "prepack": "npm run build"
+    "prepack": "npm_config_dry_run=false npm run build"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
