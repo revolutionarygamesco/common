@@ -23,8 +23,7 @@
   "files": ["dist", "src", "!src/**/*.test.ts", "!src/**/*.test-d.ts"],
   "sideEffects": false,
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "exports": {
     ".": {
