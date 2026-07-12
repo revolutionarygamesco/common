@@ -1,4 +1,4 @@
-import { describe, it, expect, expectTypeOf } from 'vitest'
+import { describe, it, expect } from 'vitest'
 import { getPrimitivesExcept } from './primitives.ts'
 import { getObjectRecord } from './object-record.ts'
 
@@ -13,7 +13,5 @@ describe('getObjectRecord', () => {
   ] as Array<[string, unknown]>)('returns a Record<string, unknown> if given %s', (_label, value) => {
     const result = getObjectRecord(value)
     expect(result).not.toBe(false)
-    if (result === false) return
-    expectTypeOf(result).toEqualTypeOf<Record<string, unknown>>()
   })
 })

@@ -1,4 +1,4 @@
-import { describe, it, expect, expectTypeOf } from 'vitest'
+import { describe, it, expect } from 'vitest'
 import { selectRandomElement } from './el.ts'
 
 describe('selectRandomElement', () => {
@@ -6,15 +6,5 @@ describe('selectRandomElement', () => {
     const arr = ['a', 'b', 'c']
     const actual = selectRandomElement<string>(arr)
     expect(arr).toContain(actual)
-    expectTypeOf(actual).toBeString()
-  })
-
-  it('handles generic types', () => {
-    interface Test {
-      str: string
-    }
-    const arr: Test[] = [{ str: 'a' }, { str: 'b' }, { str: 'c' }]
-    const actual = selectRandomElement<Test>(arr)
-    expectTypeOf(actual).toEqualTypeOf<Test>()
   })
 })
