@@ -1,6 +1,7 @@
 ### v1.2.0
-* Add two new methods:
+* Add three new methods:
   * [chance](https://github.com/revolutionarygamesco/common/wiki/chance)
+  * [retryUntil](https://github.com/revolutionarygamesco/common/wiki/retryUntil)
   * [selectRandomBand](https://github.com/revolutionarygamesco/common/wiki/selectRandomBand)
 
 ### v1.1.0

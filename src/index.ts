@@ -28,3 +28,4 @@ export type * from './testing/primitives.ts'
 
 export * from './stock.ts'
 export * from './dedupe.ts'
+export * from './retry.ts'
