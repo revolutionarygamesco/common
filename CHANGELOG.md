@@ -1,3 +1,6 @@
+### v1.0.1
+* Add new method: [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)
+
 ### v1.0.0
 * Methods
   * Type guards
