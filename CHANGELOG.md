@@ -1,4 +1,4 @@
-### v1.0.1
+### v1.1.0
 * Add new method: [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)
 
 ### v1.0.0
