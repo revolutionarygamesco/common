@@ -1,3 +1,6 @@
+### v1.2.0
+* Add new method: [chance](https://github.com/revolutionarygamesco/common/wiki/chance)
+
 ### v1.1.0
 * Add new method: [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)
 

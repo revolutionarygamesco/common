@@ -44,6 +44,7 @@ if (isString(x)) console.log(x)
 
 ### Randomizers
 
+* [chance](https://github.com/revolutionarygamesco/common/wiki/chance)
 * [selectRandomBetween](https://github.com/revolutionarygamesco/common/wiki/selectRandomBetween)
 * [selectRandomElement](https://github.com/revolutionarygamesco/common/wiki/selectRandomElement)
 * [shuffleArray](https://github.com/revolutionarygamesco/common/wiki/shuffleArray)
@@ -61,4 +62,5 @@ if (isString(x)) console.log(x)
 
 ### Other methods
 
+* [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)
 * [stockArray](https://github.com/revolutionarygamesco/common/wiki/stockArray)
