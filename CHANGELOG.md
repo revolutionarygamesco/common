@@ -1,5 +1,7 @@
 ### v1.2.0
-* Add new method: [chance](https://github.com/revolutionarygamesco/common/wiki/chance)
+* Add two new methods:
+  * [chance](https://github.com/revolutionarygamesco/common/wiki/chance)
+  * [selectRandomBand](https://github.com/revolutionarygamesco/common/wiki/selectRandomBand)
 
 ### v1.1.0
 * Add new method: [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)
