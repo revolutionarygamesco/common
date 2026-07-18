@@ -12,6 +12,7 @@ export * from './numbers/deg-rad.ts'
 export * from './numbers/rad-deg.ts'
 export * from './numbers/range.ts'
 
+export * from './randomizers/chance.ts'
 export * from './randomizers/between.ts'
 export * from './randomizers/el.ts'
 export * from './randomizers/shuffle.ts'
