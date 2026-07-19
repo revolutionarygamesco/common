@@ -1,3 +1,5 @@
-export const dedupe = <T>(orig: T[]): T[] => {
+export const dedupe = (
+  orig: Array<string | number | boolean>
+): Array<string | number | boolean> => {
   return [...new Set(orig)]
 }
