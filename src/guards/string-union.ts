@@ -1,4 +1,4 @@
-import { isString}  from './string.ts'
+import { isString } from './string.ts'
 
 export const makeStringUnionGuard = <T extends string>(
   values: readonly T[]
