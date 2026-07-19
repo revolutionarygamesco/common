@@ -1,8 +1,9 @@
 ### v1.2.0
-* Add three new methods:
+* Add four new methods:
   * [chance](https://github.com/revolutionarygamesco/common/wiki/chance)
   * [retryUntil](https://github.com/revolutionarygamesco/common/wiki/retryUntil)
   * [selectRandomBand](https://github.com/revolutionarygamesco/common/wiki/selectRandomBand)
+  * [makeEnum](https://github.com/revolutionarygamesco/common/wiki/makeEnum)
 
 ### v1.1.0
 * Add new method: [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)

@@ -26,6 +26,7 @@ export * from './testing/object-record.ts'
 export * from './testing/primitives.ts'
 export type * from './testing/primitives.ts'
 
+export * from './enum.ts'
 export * from './stock.ts'
 export * from './dedupe.ts'
 export * from './retry.ts'
