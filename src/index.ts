@@ -9,6 +9,7 @@ export * from './guards/tuple.ts'
 
 export * from './numbers/clamp.ts'
 export * from './numbers/deg-rad.ts'
+export * from './numbers/parse-float.ts'
 export * from './numbers/parse-int.ts'
 export * from './numbers/rad-deg.ts'
 export * from './numbers/range.ts'
