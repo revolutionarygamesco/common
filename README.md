@@ -39,8 +39,10 @@ if (isString(x)) console.log(x)
 
 * [clamp](https://github.com/revolutionarygamesco/common/wiki/clamp)
 * [degreesToRadians](https://github.com/revolutionarygamesco/common/wiki/degreesToRadians)
-* [radiansToDegrees](https://github.com/revolutionarygamesco/common/wiki/radiansToDegrees)
 * [isWithinRange](https://github.com/revolutionarygamesco/common/wiki/isWithinRange)
+* [parseFloatOr](https://github.com/revolutionarygamesco/common/wiki/parseFloatOr)
+* [parseIntOr](https://github.com/revolutionarygamesco/common/wiki/parseIntOr)
+* [radiansToDegrees](https://github.com/revolutionarygamesco/common/wiki/radiansToDegrees)
 
 ### Randomizers
 
