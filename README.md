@@ -66,6 +66,7 @@ if (isString(x)) console.log(x)
 ### Other methods
 
 * [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)
+* [loadYaml](https://github.com/revolutionarygamesco/common/wiki/loadYaml)
 * [makeEnum](https://github.com/revolutionarygamesco/common/wiki/makeEnum)
 * [retryUntil](https://github.com/revolutionarygamesco/common/wiki/retryUntil)
 * [stockArray](https://github.com/revolutionarygamesco/common/wiki/stockArray)
