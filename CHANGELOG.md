@@ -1,3 +1,10 @@
+### v1.2.4
+* Move [getObjectRecord](https://github.com/revolutionarygamesco/common/wiki/getObjectRecord),
+  [getPrimitivesExcept](https://github.com/revolutionarygamesco/common/wiki/getPrimitivesExcept),
+  and [loadYaml](https://github.com/revolutionarygamesco/common/wiki/loadYaml) into
+  a new `testing` package. This is especially crucial for `loadYaml`, which can
+  otherwise introduce a build-breaking `yaml` dependency.
+
 ### v1.2.3
 * Fix the type signature on [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe).
 
