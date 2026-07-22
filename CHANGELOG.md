@@ -1,3 +1,7 @@
+### v1.2.2
+* Added a new method:
+  * [loadYaml](https://github.com/revolutionarygamesco/common/wiki/loadYaml)
+
 ### v1.2.1
 * Add two new methods:
   * [parseFloatOr](https://github.com/revolutionarygamesco/common/wiki/parseFloatOr)
