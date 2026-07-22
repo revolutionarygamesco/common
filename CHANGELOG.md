@@ -1,3 +1,6 @@
+### v1.2.3
+* Fix the type signature on [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe).
+
 ### v1.2.2
 * Added a new method:
   * [loadYaml](https://github.com/revolutionarygamesco/common/wiki/loadYaml)
