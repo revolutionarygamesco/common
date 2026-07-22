@@ -1,5 +1,5 @@
-export const dedupe = (
-  orig: Array<string | number | boolean>
-): Array<string | number | boolean> => {
+export const dedupe = <T extends string | number | boolean>(
+  orig: readonly T[]
+): T[] => {
   return [...new Set(orig)]
 }
