@@ -24,12 +24,7 @@ export * from './strings/capital.ts'
 export * from './strings/decapital.ts'
 export * from './strings/oxford.ts'
 
-export * from './testing/object-record.ts'
-export * from './testing/primitives.ts'
-export type * from './testing/primitives.ts'
-
 export * from './enum.ts'
 export * from './stock.ts'
 export * from './dedupe.ts'
 export * from './retry.ts'
-export * from './yaml.ts'
