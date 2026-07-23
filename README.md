@@ -60,12 +60,13 @@ if (isString(x)) console.log(x)
 
 ### Testing methods
 
-* [getObjectRecord](https://github.com/revolutionarygamesco/common/wiki/getObjectRecord)
 * [getPrimitivesExcept](https://github.com/revolutionarygamesco/common/wiki/getPrimitivesExcept)
+* [loadYaml](https://github.com/revolutionarygamesco/common/wiki/loadYaml)
 
 ### Other methods
 
 * [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)
+* [getObjectRecord](https://github.com/revolutionarygamesco/common/wiki/getObjectRecord)
 * [loadYaml](https://github.com/revolutionarygamesco/common/wiki/loadYaml)
 * [makeEnum](https://github.com/revolutionarygamesco/common/wiki/makeEnum)
 * [retryUntil](https://github.com/revolutionarygamesco/common/wiki/retryUntil)

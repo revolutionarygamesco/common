@@ -1,3 +1,8 @@
+### v1.2.5
+* Move [getObjectRecord](https://github.com/revolutionarygamesco/common/wiki/getObjectRecord)
+  out of the testing package. It’s useful for making [type guards](https://www.typescriptlang.org/docs/handbook/advanced-types.html),
+  and that’s often just as useful in production code as it is for tests.
+
 ### v1.2.4
 * Move [getObjectRecord](https://github.com/revolutionarygamesco/common/wiki/getObjectRecord),
   [getPrimitivesExcept](https://github.com/revolutionarygamesco/common/wiki/getPrimitivesExcept),
