@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { getPrimitivesExcept } from './primitives.ts'
+import { getPrimitivesExcept } from './testing/primitives.ts'
 import { getObjectRecord } from './object-record.ts'
 
 describe('getObjectRecord', () => {

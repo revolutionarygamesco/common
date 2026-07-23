@@ -1,4 +1,4 @@
-import { isObject } from '../guards/object.ts'
+import { isObject } from './guards/object.ts'
 
 export const getObjectRecord = (
   candidate: unknown
