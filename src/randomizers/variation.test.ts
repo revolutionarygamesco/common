@@ -11,4 +11,8 @@ describe('selectRandomVariation', () => {
     const valid = ['hello darkness', 'my old friend']
     expect(valid).toContain(selectRandomVariation('hello darkness / my old friend'))
   })
+
+  it('returns the only variation if that’s all there is', () => {
+    expect(selectRandomVariation('a')).toBe('a')
+  })
 })
