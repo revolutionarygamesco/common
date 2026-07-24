@@ -1,3 +1,7 @@
+### v1.2.6
+* Added a new method:
+  * [selectRandomVariation](https://github.com/revolutionarygamesco/common/wiki/selectRandomVariation)
+
 ### v1.2.5
 * Move [getObjectRecord](https://github.com/revolutionarygamesco/common/wiki/getObjectRecord)
   out of the testing package. It’s useful for making [type guards](https://www.typescriptlang.org/docs/handbook/advanced-types.html),

@@ -51,6 +51,7 @@ if (isString(x)) console.log(x)
 * [selectRandomElement](https://github.com/revolutionarygamesco/common/wiki/selectRandomElement)
 * [selectRandomBand](https://github.com/revolutionarygamesco/common/wiki/selectRandomBand)
 * [shuffleArray](https://github.com/revolutionarygamesco/common/wiki/shuffleArray)
+* [selectRandomVariation](https://github.com/revolutionarygamesco/common/wiki/selectRandomVariation)
 
 ### String methods
 
