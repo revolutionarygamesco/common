@@ -19,6 +19,7 @@ export * from './randomizers/chance.ts'
 export * from './randomizers/between.ts'
 export * from './randomizers/el.ts'
 export * from './randomizers/shuffle.ts'
+export * from './randomizers/variation.ts'
 
 export * from './strings/capital.ts'
 export * from './strings/decapital.ts'
