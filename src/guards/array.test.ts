@@ -1,5 +1,5 @@
 import { describe, beforeAll, it, expect } from 'vitest'
-import { getPrimitivesExcept } from '../testing/primitives.ts'
+import { getPrimitivesExcept } from '../testing/index.ts'
 import { isNumber } from './number.ts'
 import { makeArrayGuard } from './array.ts'
 

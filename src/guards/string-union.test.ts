@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { primitives } from '../testing/primitives.ts'
+import { primitives } from '../testing/index.ts'
 import { makeStringUnionGuard } from './string-union.ts'
 
 describe('makeStringUnionGuard', () => {

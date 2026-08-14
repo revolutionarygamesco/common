@@ -1,5 +1,5 @@
 import { describe, beforeAll, it, expect } from 'vitest'
-import { primitives } from '../testing/primitives.ts'
+import { primitives } from '../testing/index.ts'
 import { isNumber } from './number.ts'
 import { isString } from './string.ts'
 import { makeTupleGuard } from './tuple.ts'
