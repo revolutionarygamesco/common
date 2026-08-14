@@ -1,4 +1,5 @@
 export * from './guards/array.ts'
+export * from './guards/boolean.ts'
 export * from './guards/number.arr.ts'
 export * from './guards/number.ts'
 export * from './guards/object.ts'
