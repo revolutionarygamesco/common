@@ -1,3 +1,8 @@
+### v1.2.7
+* Added two new type guards:
+  * [isBoolean](https://github.com/revolutionarygamesco/common/wiki/isBoolean)
+  * [isBooleanArray](https://github.com/revolutionarygamesco/common/wiki/isBooleanArray)
+
 ### v1.2.6
 * Added a new method:
   * [selectRandomVariation](https://github.com/revolutionarygamesco/common/wiki/selectRandomVariation)

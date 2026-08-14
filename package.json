@@ -1,7 +1,7 @@
 {
   "name": "@revolutionarygamesco/common",
   "description": "A library of methods that we tend to use in all (or at least most) of our projects.",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "homepage": "https://github.com/revolutionarygamesco/common",
   "bugs": "https://github.com/revolutionarygamesco/common/issues",
   "repository": {
@@ -65,5 +65,8 @@
     "yaml": {
       "optional": true
     }
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
   }
 }

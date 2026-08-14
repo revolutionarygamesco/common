@@ -26,6 +26,8 @@ if (isString(x)) console.log(x)
 
 ### Type guards
 
+* [isBoolean](https://github.com/revolutionarygamesco/common/wiki/isBoolean)
+* [isBooleanArray](https://github.com/revolutionarygamesco/common/wiki/isBooleanArray)
 * [isNumber](https://github.com/revolutionarygamesco/common/wiki/isNumber)
 * [isNumberArray](https://github.com/revolutionarygamesco/common/wiki/isNumberArray)
 * [isString](https://github.com/revolutionarygamesco/common/wiki/isString)
