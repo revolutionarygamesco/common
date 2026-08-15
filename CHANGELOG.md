@@ -1,3 +1,10 @@
+### v1.2.8
+* Added four new type guards:
+  * [isOptionalBoolean](https://github.com/revolutionarygamesco/common/wiki/isOptionalBoolean)
+  * [isOptionalNumber](https://github.com/revolutionarygamesco/common/wiki/isOptionalNumber)
+  * [isOptionalString](https://github.com/revolutionarygamesco/common/wiki/isOptionalString)
+  * [isOptionalObject](https://github.com/revolutionarygamesco/common/wiki/isOptionalObject)
+
 ### v1.2.7
 * Added two new type guards:
   * [isBoolean](https://github.com/revolutionarygamesco/common/wiki/isBoolean)
