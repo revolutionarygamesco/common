@@ -1,3 +1,7 @@
+### v1.2.9
+* Added new method:
+  * [isWithinBounds](https://github.com/revolutionarygamesco/common/wiki/isWithinBounds)
+
 ### v1.2.8
 * Added four new type guards:
   * [isOptionalBoolean](https://github.com/revolutionarygamesco/common/wiki/isOptionalBoolean)

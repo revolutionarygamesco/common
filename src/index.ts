@@ -31,6 +31,7 @@ export * from './strings/capital.ts'
 export * from './strings/decapital.ts'
 export * from './strings/oxford.ts'
 
+export * from './bounds.ts'
 export * from './enum.ts'
 export * from './stock.ts'
 export * from './dedupe.ts'

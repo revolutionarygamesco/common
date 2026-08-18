@@ -72,6 +72,7 @@ if (isString(x)) console.log(x)
 
 ### Other methods
 
+* [isWithinBounds](https://github.com/revolutionarygamesco/common/wiki/isWithinBounds)
 * [dedupe](https://github.com/revolutionarygamesco/common/wiki/dedupe)
 * [getObjectRecord](https://github.com/revolutionarygamesco/common/wiki/getObjectRecord)
 * [loadYaml](https://github.com/revolutionarygamesco/common/wiki/loadYaml)
