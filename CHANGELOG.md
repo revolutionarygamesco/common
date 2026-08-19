@@ -1,3 +1,7 @@
+### v1.2.10
+* Added new type guard:
+  * [makeRecordGuard](https://github.com/revolutionarygamesco/common/wiki/makeRecordGuard)
+
 ### v1.2.9
 * Added new method:
   * [isWithinBounds](https://github.com/revolutionarygamesco/common/wiki/isWithinBounds)

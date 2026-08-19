@@ -38,6 +38,7 @@ if (isString(x)) console.log(x)
 * [isObject](https://github.com/revolutionarygamesco/common/wiki/isObject)
 * [isOptionalObject](https://github.com/revolutionarygamesco/common/wiki/isOptionalObject)
 * [makeArrayGuard](https://github.com/revolutionarygamesco/common/wiki/makeArrayGuard)
+* [makeRecordGuard](https://github.com/revolutionarygamesco/common/wiki/makeRecordGuard)
 * [makeStringUnionGuard](https://github.com/revolutionarygamesco/common/wiki/makeStringUnionGuard)
 * [makeTupleGuard](https://github.com/revolutionarygamesco/common/wiki/makeTupleGuard)
 
