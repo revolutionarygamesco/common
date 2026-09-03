@@ -45,6 +45,7 @@ if (isString(x)) console.log(x)
 ### Object property inspection methods
 
 * [getAllPartials](https://github.com/revolutionarygamesco/common/wiki/getAllPartials)
+* [hasAll](https://github.com/revolutionarygamesco/common/wiki/hasAll)
 
 ### Number methods
 
