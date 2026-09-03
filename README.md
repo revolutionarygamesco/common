@@ -47,6 +47,7 @@ if (isString(x)) console.log(x)
 * [getAllPartials](https://github.com/revolutionarygamesco/common/wiki/getAllPartials)
 * [hasAll](https://github.com/revolutionarygamesco/common/wiki/hasAll)
 * [hasOnly](https://github.com/revolutionarygamesco/common/wiki/hasOnly)
+* [hasExactly](https://github.com/revolutionarygamesco/common/wiki/hasExactly)
 
 ### Number methods
 
