@@ -1,7 +1,4 @@
 import { isNumber } from './number.ts'
+import { makeOptionalGuard } from './optional.ts'
 
-export const isOptionalNumber = (
-  candidate: unknown
-): candidate is number | undefined => {
-  return candidate === undefined || isNumber(candidate)
-}
+export const isOptionalNumber: (candidate: unknown) => candidate is number | undefined = makeOptionalGuard(isNumber)
