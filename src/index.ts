@@ -14,6 +14,8 @@ export * from './guards/string.ts'
 export * from './guards/string-union.ts'
 export * from './guards/tuple.ts'
 
+export * from './properties/partials.ts'
+
 export * from './numbers/clamp.ts'
 export * from './numbers/deg-rad.ts'
 export * from './numbers/parse-float.ts'

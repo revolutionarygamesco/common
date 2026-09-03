@@ -42,6 +42,10 @@ if (isString(x)) console.log(x)
 * [makeStringUnionGuard](https://github.com/revolutionarygamesco/common/wiki/makeStringUnionGuard)
 * [makeTupleGuard](https://github.com/revolutionarygamesco/common/wiki/makeTupleGuard)
 
+### Object property inspection methods
+
+* [getAllPartials](https://github.com/revolutionarygamesco/common/wiki/getAllPartials)
+
 ### Number methods
 
 * [clamp](https://github.com/revolutionarygamesco/common/wiki/clamp)
