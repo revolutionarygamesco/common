@@ -1,3 +1,15 @@
+### v1.3
+* Added new type guards:
+  * [isDate](https://github.com/revolutionarygamesco/common/wiki/isDate)
+  * [isOptionalDate](https://github.com/revolutionarygamesco/common/wiki/isOptionalDate)
+  * [isDateArray](https://github.com/revolutionarygamesco/common/wiki/isDateArray)
+  * [makeOptionalGuard](https://github.com/revolutionarygamesco/common/wiki/makeOptionalGuard)
+* Added new object property inspection methods
+  * [getAllPartials](https://github.com/revolutionarygamesco/common/wiki/getAllPartials)
+  * [hasAll](https://github.com/revolutionarygamesco/common/wiki/hasAll)
+  * [hasOnly](https://github.com/revolutionarygamesco/common/wiki/hasOnly)
+  * [hasExactly](https://github.com/revolutionarygamesco/common/wiki/hasExactly)
+
 ### v1.2.10
 * Added new type guard:
   * [makeRecordGuard](https://github.com/revolutionarygamesco/common/wiki/makeRecordGuard)
