@@ -1,6 +1,6 @@
 import { describe, it, expectTypeOf } from 'vitest'
-import { makeArrayGuard } from './array.ts'
 import { isNumber } from './number.ts'
+import { makeArrayGuard } from './array.ts'
 
 describe('makeArrayGuard', () => {
   it('creates a type guard for T[]', () => {
