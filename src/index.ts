@@ -16,6 +16,7 @@ export * from './guards/tuple.ts'
 
 export * from './properties/partials.ts'
 export * from './properties/all.ts'
+export * from './properties/only.ts'
 
 export * from './numbers/clamp.ts'
 export * from './numbers/deg-rad.ts'
