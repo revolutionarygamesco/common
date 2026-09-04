@@ -1,6 +1,19 @@
-import { describe, beforeAll, it, expect } from 'vitest'
+import { describe, it, expect } from 'vitest'
 import { primitives } from '../testing/index.ts'
-import { isTest } from './obj.test-d.ts'
+import { isOptionalBoolean } from './boolean.op.ts'
+import { makeObjectGuard, type GuardShape } from './obj.ts'
+import { isTest, testShape, type Test } from './obj.test-d.ts'
+
+interface OptionalTest extends Test {
+  other?: boolean
+}
+
+const optionalTestShape: GuardShape<OptionalTest> = {
+  ...testShape,
+  other: isOptionalBoolean
+}
+
+export const isOptionalTest: (candidate: unknown) => candidate is OptionalTest = makeObjectGuard<OptionalTest>(optionalTestShape)
 
 describe('makeObjectGuard', () => {
   it.each([
@@ -13,5 +26,9 @@ describe('makeObjectGuard', () => {
 
   it('accepts a valid object', () => {
     expect(isTest({ n: 1, name: 'A' })).toBe(true)
+  })
+
+  it('doesn’t require optional fields', () => {
+    expect(isOptionalTest({ n: 1, name: 'A' })).toBe(true)
   })
 })
