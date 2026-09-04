@@ -44,6 +44,7 @@ if (isString(x)) console.log(x)
 * [makeRecordGuard](https://github.com/revolutionarygamesco/common/wiki/makeRecordGuard)
 * [makeOptionalGuard](https://github.com/revolutionarygamesco/common/wiki/makeOptionalGuard)
 * [makeObjectGuard](https://github.com/revolutionarygamesco/common/wiki/makeObjectGuard)
+* [makePartialGuard](https://github.com/revolutionarygamesco/common/wiki/makePartialGuard)
 * [makeStringUnionGuard](https://github.com/revolutionarygamesco/common/wiki/makeStringUnionGuard)
 * [makeTupleGuard](https://github.com/revolutionarygamesco/common/wiki/makeTupleGuard)
 
