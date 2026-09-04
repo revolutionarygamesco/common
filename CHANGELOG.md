@@ -1,3 +1,7 @@
+### v1.3.2
+* Fixed a bug in [makeObjectGuard](https://github.com/revolutionarygamesco/common/wiki/makeObjectGuard)
+  that caused it to incorrectly reject objects that lack optional fields.
+
 ### v1.3.1
 * Added new type guards:
   * [makeObjectGuard](https://github.com/revolutionarygamesco/common/wiki/makeObjectGuard)
