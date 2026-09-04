@@ -1,4 +1,9 @@
-### v1.3
+### v1.3.1
+* Added new type guards:
+  * [makeObjectGuard](https://github.com/revolutionarygamesco/common/wiki/makeObjectGuard)
+  * [makePartialGuard](https://github.com/revolutionarygamesco/common/wiki/makePartialGuard)
+
+### v1.3.0
 * Added new type guards:
   * [isDate](https://github.com/revolutionarygamesco/common/wiki/isDate)
   * [isOptionalDate](https://github.com/revolutionarygamesco/common/wiki/isOptionalDate)
