@@ -77,6 +77,7 @@ if (isString(x)) console.log(x)
 
 * [capitalize](https://github.com/revolutionarygamesco/common/wiki/capitalize)
 * [decapitalize](https://github.com/revolutionarygamesco/common/wiki/decapitalize)
+* [interpolate](https://github.com/revolutionarygamesco/common/wiki/interpolate)
 * [makeOxfordList](https://github.com/revolutionarygamesco/common/wiki/makeOxfordList)
 
 ### Testing methods

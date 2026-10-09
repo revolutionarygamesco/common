@@ -1,3 +1,7 @@
+### v1.3.4
+* Added new method
+  * [interpolate](https://github.com/revolutionarygamesco/common/wiki/interpolate)
+
 ### v1.3.3
 * Added new method
   * [getNestedValue](https://github.com/revolutionarygamesco/common/wiki/getNestedValue)
