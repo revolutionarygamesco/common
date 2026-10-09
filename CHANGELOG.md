@@ -1,3 +1,7 @@
+### v1.3.3
+* Added new method
+  * [getNestedValue](https://github.com/revolutionarygamesco/common/wiki/getNestedValue)
+
 ### v1.3.2
 * Fixed a bug in [makeObjectGuard](https://github.com/revolutionarygamesco/common/wiki/makeObjectGuard)
   that caused it to incorrectly reject objects that lack optional fields.
