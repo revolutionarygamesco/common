@@ -41,6 +41,7 @@ export * from './randomizers/variation.ts'
 
 export * from './strings/capital.ts'
 export * from './strings/decapital.ts'
+export * from './strings/interpolate.ts'
 export * from './strings/oxford.ts'
 
 export * from './bounds.ts'
