@@ -1,3 +1,6 @@
+export * from './constants/alpha.ts'
+export * from './constants/alpha.ts'
+
 export * from './guards/array.ts'
 export * from './guards/boolean.arr.ts'
 export * from './guards/boolean.op.ts'
