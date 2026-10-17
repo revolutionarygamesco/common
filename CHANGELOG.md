@@ -1,3 +1,8 @@
+### v1.4.0
+* Added constants
+  * [Alphanumeric Characters](https://github.com/revolutionarygamesco/common/wiki/alphanumeric)
+  * [HTTP Status Codes](https://github.com/revolutionarygamesco/common/wiki/http-status-codes)
+
 ### v1.3.4
 * Added new method
   * [interpolate](https://github.com/revolutionarygamesco/common/wiki/interpolate)

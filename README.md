@@ -22,6 +22,11 @@ const x = 'Hello, world!'
 if (isString(x)) console.log(x)
 ```
 
+## Constants
+
+* [Alphanumeric Characters](https://github.com/revolutionarygamesco/common/wiki/alphanumeric)
+* [HTTP Status Codes](https://github.com/revolutionarygamesco/common/wiki/http-status-codes)
+
 ## Methods
 
 ### Type guards
