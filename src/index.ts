@@ -1,5 +1,5 @@
 export * from './constants/alpha.ts'
-export * from './constants/alpha.ts'
+export * from './constants/http-status.ts'
 
 export * from './guards/array.ts'
 export * from './guards/boolean.arr.ts'

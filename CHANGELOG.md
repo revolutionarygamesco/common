@@ -1,3 +1,6 @@
+### v1.4.1
+* Fixed an export error with HTTP status code constants.
+
 ### v1.4.0
 * Added constants
   * [Alphanumeric Characters](https://github.com/revolutionarygamesco/common/wiki/alphanumeric)
