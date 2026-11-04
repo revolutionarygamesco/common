@@ -1,7 +1,6 @@
-import { capitalize } from './capital.ts'
 import { splitKebab } from './split-kebab.ts'
+import { camelize } from './camelize.ts'
 
 export const camelizeKebab = (kebab: string): string => {
-  const [first, ...rest] = splitKebab(kebab)
-  return first + rest.map(w => capitalize(w)).join('')
+  return camelize(splitKebab(kebab))
 }
