@@ -1,3 +1,18 @@
+### v1.4.2
+* Add 12 new string methods:
+  * [splitCamel](https://github.com/revolutionarygamesco/common/wiki/splitCamel)
+  * [splitKebab](https://github.com/revolutionarygamesco/common/wiki/splitKebab)
+  * [splitSnake](https://github.com/revolutionarygamesco/common/wiki/splitSnake)
+  * [camelize](https://github.com/revolutionarygamesco/common/wiki/camelize)
+  * [camelizeKebab](https://github.com/revolutionarygamesco/common/wiki/camelizeKebab)
+  * [camelizeSnake](https://github.com/revolutionarygamesco/common/wiki/camelizeSnake)
+  * [kebabize](https://github.com/revolutionarygamesco/common/wiki/kebabize)
+  * [kebabizeCamel](https://github.com/revolutionarygamesco/common/wiki/kebabizeCamel)
+  * [kebabizeSnake](https://github.com/revolutionarygamesco/common/wiki/kebabizeSnake)
+  * [snakify](https://github.com/revolutionarygamesco/common/wiki/snakify)
+  * [snakifyCamel](https://github.com/revolutionarygamesco/common/wiki/snakifyCamel)
+  * [snakifyKebab](https://github.com/revolutionarygamesco/common/wiki/snakifyKebab)
+
 ### v1.4.1
 * Fixed an export error with HTTP status code constants.
 
