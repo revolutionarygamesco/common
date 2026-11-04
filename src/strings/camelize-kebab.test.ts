@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import camelizeKebab from './camelize-kebab.ts'
+import { camelizeKebab } from './camelize-kebab.ts'
 
 describe('camelizeKebab', () => {
   it('camelizes a kebab', () => {

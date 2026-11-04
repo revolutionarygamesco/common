@@ -47,6 +47,7 @@ export * from './strings/capital.ts'
 export * from './strings/decapital.ts'
 export * from './strings/interpolate.ts'
 export * from './strings/oxford.ts'
+export * from './strings/split-kebab.ts'
 
 export * from './bounds.ts'
 export * from './enum.ts'
