@@ -59,6 +59,7 @@ export * from './strings/snakify-kebab.ts'
 export * from './strings/split-camel.ts'
 export * from './strings/split-kebab.ts'
 export * from './strings/split-snake.ts'
+export * from './strings/unescape-pointer.ts'
 
 export * from './bounds.ts'
 export * from './enum.ts'
