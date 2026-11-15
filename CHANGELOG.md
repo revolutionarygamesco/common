@@ -1,3 +1,8 @@
+### v1.4.3
+* Added twi new string methods:
+  * [escapeJSONPointer](https://github.com/revolutionarygamesco/common/wiki/escapeJSONPointer)
+  * [unescapeJSONPointer](https://github.com/revolutionarygamesco/common/wiki/unescapeJSONPointer)
+
 ### v1.4.2
 * Add 12 new string methods:
   * [splitCamel](https://github.com/revolutionarygamesco/common/wiki/splitCamel)

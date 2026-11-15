@@ -82,6 +82,7 @@ if (isString(x)) console.log(x)
 
 * [capitalize](https://github.com/revolutionarygamesco/common/wiki/capitalize)
 * [decapitalize](https://github.com/revolutionarygamesco/common/wiki/decapitalize)
+* [escapeJSONPointer](https://github.com/revolutionarygamesco/common/wiki/escapeJSONPointer)
 * [interpolate](https://github.com/revolutionarygamesco/common/wiki/interpolate)
 * [makeOxfordList](https://github.com/revolutionarygamesco/common/wiki/makeOxfordList)
 * [splitCamel](https://github.com/revolutionarygamesco/common/wiki/splitCamel)
@@ -96,6 +97,7 @@ if (isString(x)) console.log(x)
 * [snakify](https://github.com/revolutionarygamesco/common/wiki/snakify)
 * [snakifyCamel](https://github.com/revolutionarygamesco/common/wiki/snakifyCamel)
 * [snakifyKebab](https://github.com/revolutionarygamesco/common/wiki/snakifyKebab)
+* [unescapeJSONPointer](https://github.com/revolutionarygamesco/common/wiki/unescapeJSONPointer)
 
 ### Testing methods
 
