@@ -46,7 +46,8 @@
     "test": "vitest run --typecheck",
     "test:coverage": "vitest run --coverage",
     "prepack": "npm_config_dry_run=false npm run build",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test",
+    "update:deps": "npx npm-check-updates -u"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
