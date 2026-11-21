@@ -1,4 +1,5 @@
 export * from './constants/alpha.ts'
+export * from './constants/time.ts'
 
 export * from './guards/array.ts'
 export * from './guards/boolean.arr.ts'
