@@ -25,7 +25,7 @@ if (isString(x)) console.log(x)
 ## Constants
 
 * [Alphanumeric Characters](https://github.com/revolutionarygamesco/common/wiki/alphanumeric)
-* [HTTP Status Codes](https://github.com/revolutionarygamesco/common/wiki/http-status-codes)
+* [Time](https://github.com/revolutionarygamesco/common/wiki/time)
 
 ## Methods
 
@@ -98,6 +98,9 @@ if (isString(x)) console.log(x)
 * [snakifyCamel](https://github.com/revolutionarygamesco/common/wiki/snakifyCamel)
 * [snakifyKebab](https://github.com/revolutionarygamesco/common/wiki/snakifyKebab)
 * [unescapeJSONPointer](https://github.com/revolutionarygamesco/common/wiki/unescapeJSONPointer)
+
+### Time
+* [intervalToMs](https://github.com/revolutionarygamesco/common/wiki/intervalToMs)
 
 ### Testing methods
 

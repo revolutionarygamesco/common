@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.5.1] - 2026-11-20
+### Added
+- [Time constants](https://github.com/revolutionarygamesco/common/wiki/time)
+- [intervalToMs](https://github.com/revolutionarygamesco/common/wiki/intervalToMs)
+
 ## [1.5.0] - 2026-11-18
 
 ### Changed
