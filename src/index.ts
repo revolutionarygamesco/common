@@ -61,6 +61,8 @@ export * from './strings/split-kebab.ts'
 export * from './strings/split-snake.ts'
 export * from './strings/unescape-pointer.ts'
 
+export * from './time/interval.ts'
+
 export * from './bounds.ts'
 export * from './enum.ts'
 export * from './stock.ts'
